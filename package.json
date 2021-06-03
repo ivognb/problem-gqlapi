@@ -1,0 +1,20 @@
+{
+  "name": "segundo_projeto_graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node src/index.js -e js,gql"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4"
+  },
+  "dependencies": {
+    "apollo-server": "^2.25.0",
+    "graphql": "^15.5.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^5.12.12"
+  }
+}
